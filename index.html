@@ -20,28 +20,52 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-			<div id="header">
-				<div id="header-left">
-					<img src="res/logo.png" id="header-logo" alt="sun-logo">
+		<div id="header">
+			<div id="header-left">
+				<img src="res/logo.png" id="header-logo" alt="sun-logo">
+			</div>
+			<div id="header-right">
+				<div id="nav-right-top">
+					<div class="menu-item">
+						<a class="menu-color" href="#">HOME</a>
+					</div>
+					<div class="menu-item">
+						<a class="menu-color" onmouseover="showNavMenu()" onmouseleave="hideNavMenu()" href="#">ABOUT</a>
+					</div>
 				</div>
-				<div id="header-right">
-					<div class="menu-item">Home</div>
-					<div class="menu-item">About</div>
+				<div id="nav-right-bottom" class="hide-nav">
+					<div><a class="nav-menu-item menu-color" href="#">YOUR HOSTS</a></div>
+					<div><a class="nav-menu-item menu-color" href="#">EPISODES</a></div>
+					<div><a class="nav-menu-item menu-color" href="#">CONTACT</a></div>
 				</div>
 			</div>
+		</div>
 		
-		<section>
-			<aside>
-				stuff...
-			</aside>
-			<aside>
-				& things
-			</aside>
-		</section>
+		<div id="section">
+			<div id="section-left">
+				<p>cor·nu·co·pi·a</p>
+				<p>ˌkôrn(y)əˈkōpēə/</P>
+				<em>noun</em>
+				<ol>
+					<li>a symbol of plenty consisting of a goat's horn overflowing with flowers, fruit, and corn.</li>
+				</ol>
+				<ul>
+					<li>an ornamental container shaped line a goat's horn.</li>
+					<li>an abundant supply of good things of a specified kind.</li>
+				</ul>
+			</div>
+			<div id="section-right">
+				<div>
+					<img class="pic" src="res/02040027.JPG" alt="goat-man">
+				</div>
+			</div>
+		</div>
 		
 		<footer id="back-footer">
 		</footer>
 		<footer>
 		</footer>
+		
+		<script type="text/javascript" src="app.js"></script>
 	</body>
 </html>
