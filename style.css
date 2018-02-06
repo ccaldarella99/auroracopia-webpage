@@ -1,14 +1,14 @@
-html, h1, h2, h3, p, a/*, ul, li*/ {
+html, h1, h2, h3, p, a, ul, li {
 	font-family: Arial;
 	font-size: 16px;
 	line-height:18px;
 	padding:0;
 	margin:0;
-	color: #333;
+	color: #666;
 }
 
 #header {
-	background-color:#e2bb27;
+	background-color:#e5bb15;
 	width: 100%;
 	height: 140px;
 	padding-left: 5px;
@@ -24,15 +24,15 @@ footer {
 	width: 100%;
 	height: 140px;
 	padding-left: 5px;
-	position: absolute;
-	bottom: -1px;
+	position: relative;;
+	bottom: -10px;
 	left: -1px;
 	color: #fff;
 }
 
 #back-footer {
 	background-color: #333;
-	height: 200px;
+	height: 60px;
 }
 
 section {
@@ -40,23 +40,22 @@ section {
 	background-color: #aaa;
 }
 
-div {
+.div {
 	border: dotted 1px black;
 }
 
 #header-logo {
-	margin: 20px;
+	margin: 15px;
 	padding-top:5px;
 	width: 160px;
-	float: inline;
+	float: left;
+/*	height:110px;*/
 }
 
 #header-left {
 	width: 70%;
 	float: inline;
 	text-align: left;
-	display: flex;
-	flex-wrap: wrap;
 }
 
 #header-right {
@@ -121,22 +120,90 @@ div {
 	color: #fff;
 }
 
-#section {
-	max-width:890px;
-	margin: 20px auto;
+#mid-section {
+	max-width:1090px;
+	margin: 50px auto;
+	padding: 10px;
+	height:600px;
+}
+
+#left-middle {
+	margin 25px 0 5px 0;
+	width: 50%;
+	height: 100%;
+	float: left;
+	font-size: 1.25em;
+	font-family: 'EB Garamond', serif;
+	line-height: 2em;
+	padding: 75px 10px;
+}
+
+#right-middle {
+	margin 25px auto;
+	width: 50%;
+	height: 100%;
+	float:right;
 	padding: 10px;
 }
 
-#section-left {
-	width: 50%;
-	float: inline-block;
+.definition {
+	list-style-type: circle;
+	padding-left: 5.5em;
+	font-family: 'EB Garamond', serif;
+	line-height: 1.5em;
 }
 
-#section-right {
-	width: 50%;
-	float: inline-block;
+.home-list {
+	padding-top: 0.5em;
+	padding-left: 2.5em;
+	font-family: 'EB Garamond', serif;
+	letter-spacing: 0.1em;
 }
 
-.pic {
-	width: 260px;
+li {
+	margin-bottom: 1.5em;
 }
+
+.home-item {
+	font-family: 'EB Garamond', serif;
+	line-height: 1.5em;
+	letter-spacing: 0.05em;
+}
+
+.home-about p {
+	font-size: 1.2em;
+	font-family: 'EB Garamond', serif;
+	line-height: 1.5em;
+	padding: 0.5em;
+	letter-spacing: 0.05em;
+}
+
+.center-txt {
+	text-align: center;
+}
+
+.noun {
+	font-size: 0.9em;
+	font-family: 'EB Garamond', serif;
+	line-height: 1.5em;
+	padding: 0.65em;
+	letter-spacing: 0.05em;
+	color: #666;
+}
+
+.home-pic {
+	max-width: 800px;
+	max-height: 220px;
+	padding: 0 15%;
+	margin: 0 auto;
+	text-align: center;
+	-moz-transform: scale(1.4);
+	-webkit-transform: scale(1.4);
+	transform: scale(1.4);
+}
+
+.pic-container {
+	overflow:hidden;
+	margin: 20px auto;
+}
+
