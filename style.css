@@ -288,11 +288,7 @@ li {
 		background-color: #fff;
 	}
 	
-	#left-middle {
-		width: 100%;
-	}
-
-	#right-middle {
+	.index-middle {
 		width: 100%;
 	}
 
