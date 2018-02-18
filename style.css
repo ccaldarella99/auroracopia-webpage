@@ -23,11 +23,9 @@ html, h1, h2, h3, p, a, ol, ul, li, div {
 	top: -1px;
 	left: -1px;
 	display: flex;
-	z-index: 10;
 }
 
 .header-overlay{
-	z-index: 10;
 	background-color: #000;
 	opacity: 0.5;
 	position: absolute;
@@ -48,12 +46,10 @@ html, h1, h2, h3, p, a, ol, ul, li, div {
 	top: -1px;
 	left: -1px;
 	display: flex;
-	z-index: 10;
 }
 
 #host-header {
 	background-image: url("res/IMG_20170806_165202_902.jpg");
-	z-index: -1;
 }
 
 #episode-header {
@@ -61,7 +57,6 @@ html, h1, h2, h3, p, a, ol, ul, li, div {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	z-index: -1;
 }
 
 #contact-header {
@@ -69,7 +64,6 @@ html, h1, h2, h3, p, a, ol, ul, li, div {
 	background-position-y: 25%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	z-index: -1;
 }
 
 #header-top {
@@ -393,7 +387,11 @@ li {
 		background-color: #fff;
 	}
 	
-	.index-middle {
+	#left-middle {
+		width: 100%;
+	}
+
+	#right-middle {
 		width: 100%;
 	}
 
