@@ -15,6 +15,7 @@
 		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 		<title>Auroracopia</title>
 
@@ -22,52 +23,56 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<div id="host-header">
-			<div id="header-left">
-				<img src="res/logo.png" id="header-logo" alt="sun-logo">
-			</div>
-			<div id="header-right">
-				<div id="nav-right-top">
-					<div class="menu-item left-btn">
-						<a class="menu-color" href="index.html">HOME</a>
-					</div>
-					<div class="menu-item right-btn dropdown">
-						<a class="menu-color" href="#">ABOUT</a>
-						<div id="nav-right-bottom" class="dropdown-content">
-							<div><a class="nav-menu-item menu-color" href="#">YOUR HOSTS</a></div>
-							<div><a class="nav-menu-item menu-color" href="#">EPISODES</a></div>
-							<div><a class="nav-menu-item menu-color" href="#">CONTACT</a></div>
+		<div id="container">
+			<div id="host-header" class="non-index">
+					<a href="index.html">
+							<div id="header-left">
+									<img src="res/logo.png" id="header-logo" alt="sun-logo">
+							</div>
+						</a>
+						<div id="header-right">
+					<div class="heading-title rb">YOUR HOSTS</div>
+					<div id="nav-right-top">
+						<div class="menu-item left-btn">
+							<a class="menu-color" href="index.html">HOME</a>
+						</div>
+						<div class="menu-item right-btn dropdown">
+							<a class="menu-color" href="#">ABOUT</a>
+							<div id="nav-right-bottom" class="dropdown-content">
+								<div><a class="nav-menu-item menu-color" href="your_hosts.html">YOUR HOSTS</a></div>
+								<div><a class="nav-menu-item menu-color" href="episodes.html">EPISODES</a></div>
+								<div><a class="nav-menu-item menu-color" href="contact.html">CONTACT</a></div>
+							</div>
 						</div>
 					</div>
+					<div id="hamburger">
+						<div class="h-line"></div>
+						<div class="h-line"></div>
+						<div class="h-line"></div>
+					</div>
 				</div>
-				<div id="hamburger">
-					<div class="h-line"></div>
-					<div class="h-line"></div>
-					<div class="h-line"></div>
+			</div>
+			
+			<div id="mid-section">
+				<div class="left-middle left-menu" class="home-about">
+					<!-- Menu Stuff Here! -->
+					<p class="eb about">About</p>
+					<a class="menu-color selected" href="your_hosts.html">YOUR HOSTS</a>
+					<a class="menu-color" href="episodes.html">EPISODES</a>
+					<a class="menu-color" href="contact.html">CONTACT</a>
+				</div>
+				<div class="right-middle right-section hosts">
+					<!-- Content-Stuff Here! -->
+					<img class="host-pics" src="res/fullsizeoutput_8.jpeg">
+					<img class="host-pics" src="res/20170228_145909.png">
 				</div>
 			</div>
+			
+			<footer id="back-footer">
+			</footer>
+			<footer>
+			</footer>
 		</div>
-		
-		<div id="mid-section">
-			<div class="left-middle left-menu" class="home-about">
-				<!-- Menu Stuff Here! -->
-				<a class="menu-color" href="index.html">HOME</a>
-				<a class="menu-color" href="#">ABOUT</a>
-				<a class="menu-color" href="#">YOUR HOSTS</a>
-				<a class="menu-color" href="#">EPISODES</a>
-				<a class="menu-color" href="#">CONTACT</a>
-			</div>
-			<div class="right-middle right-section hosts">
-				<!-- Content-Stuff Here! -->
-				<img class="host-pics" src="res/fullsizeoutput_8.jpeg">
-				<img class="host-pics" src="res/20170228_145909.png">
-			</div>
-		</div>
-		
-		<footer id="back-footer">
-		</footer>
-		<footer>
-		</footer>
 		
 		<script type="text/javascript" src="app.js"></script>
 	</body>
