@@ -320,7 +320,8 @@ a { z-index:3; }
 .bb-font {
 	font-family: proxima-nova;
 	color: white;
-	font-size: 0.65em;
+	font-size: 0.75em;
+	line-height: 1.1em;
 	font-weight: bold;
 }
 
@@ -441,10 +442,29 @@ li {
 		width: 100%;
 	}
 
+	.right-section {
+		width: 100%;
+		margin: 0 auto;
+	}
+
 	.host-pics {
 		width: 80%;
 	}
 	
+	.black-box {
+		width: 40%;
+		padding: 20px;
+	}
+
+	.bb-right {
+		left: -5%;
+	}
+
+	.bb-font {
+		font-size: 0.9em;
+		line-height: 1em;
+	}
+
 	footer {
 		position: relative;
 		bottom: -10px;
@@ -458,3 +478,52 @@ li {
 	}
 
 }
+
+@media only screen and (min-width:700px) {
+	.bb-font {
+		font-size: 0.8em;
+		line-height: 1.1em;
+	}
+}
+
+@media only screen and (min-width:770px) {
+	.bb-font {
+		font-size: 0.9em;
+		line-height: 1em;
+	}
+}
+
+@media only screen and (min-width:880px) {
+	.bb-font {
+		font-size: 1em;
+		line-height: 1em;
+	}
+}
+
+@media only screen and (max-width:500px) {
+	.bb-font {
+		font-size: 0.7em;
+		line-height: 1.1em;
+	}
+}
+
+@media only screen and (max-width:385px) {
+	.black-box {
+		/*display: none;*/
+		width: 100%;
+		top:0;
+		left:0;
+	}
+	
+	.host-pics {
+		width: 80%;
+		float: center;
+	}
+	
+	#mid-section {
+		padding-top: 0;
+		padding-bottom: 50px;
+		margin-top: 20px;
+	}
+}
+
