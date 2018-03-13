@@ -385,7 +385,15 @@ li {
 	margin: 20px auto;
 }
 
-.hosts {
+.contact-hear {
+	margin: 0 0 10px 0;
+	line-height: 1.4em;
+	font-size:  1.3em;
+}
+
+.contact-inq {
+	font-size: 1.1em;
+	line-height: 1.2em;
 }
 
 
