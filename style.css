@@ -263,10 +263,10 @@ a { z-index:3; }
 }
 
 .left-menu {
-	width: 191px;
+	width: 23%;
 	display: inline-grid;
 	padding-bottom: 25px;
-	margin-right: 64px;
+	margin-right: 7%;
 }
 
 .left-menu a {
@@ -291,10 +291,45 @@ a { z-index:3; }
 	float:center;
 	margin: 5px auto;
 	overflow:hidden;
+	max-width: 60%;
+}
+
+.host-box {
+	margin: 35px 0;
+}
+
+.black-box {
+	background-color: #000;
+	position: relative;
+	width: 40%;
+	padding: 35px;
+}
+
+.bb-right {
+	bottom: -20px;
+	left: -50px;
+	float:right;
+}
+
+.bb-left {
+	bottom: -20px;
+	left: 40px;
+	float:left;
+}
+
+.bb-font {
+	font-family: proxima-nova;
+	color: white;
+	font-size: 0.65em;
+	font-weight: bold;
+}
+
+.right-pic {
+	float: right;
 }
 
 .right-section {
-	/*width: 80%;*/
+	width: 70%;
 }
 
 .definition {
@@ -395,6 +430,10 @@ li {
 		width: 100%;
 	}
 
+	.host-pics {
+		width: 80%;
+	}
+	
 	footer {
 		position: relative;
 		bottom: -10px;
