@@ -400,6 +400,71 @@ li {
 .hosts {
 }
 
+.overlay {
+	height: 100%;
+	width: 0%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0,0.7);
+	transition: 0.5s;
+}
+
+.item-overlay {
+	position: relative;
+	top: 25%;
+	width: 100%;
+	height: 40%;
+	margin: 0 auto;
+	padding: 30px;
+	background-color: #fff;
+	/*text-align:left;*/
+	z-index: 2;
+}
+
+#over-menu {
+	display: none;
+}
+
+.close-btn, .close-btn:link {
+    position: absolute;
+    top: 45px;
+    right: 45px;
+    font-size: 60px;
+	z-index:10;
+}
+
+.close-btn:hover, .close-btn:active{
+	text-decoration:none;
+	color: #fff;
+}
+
+.overlay-item-color {
+	color:#e5bb15;
+	font-size: 1em;
+	animation: overlay-orange-text 1.5s;
+}
+
+@keyframes overlay-orange-text {
+	0% {
+		font-size: 0;
+	}
+	100% {
+		font-size: 1em;
+	}
+}
+
+@keyframes hover-nav-menu {
+	0% {
+	}
+	100% {
+	}
+}
+
+
+
 
 
 
@@ -420,6 +485,7 @@ li {
 		padding-top: 45px;
 	    position: absolute;
     	right: 37px;
+		display: inline-block;
 	}
 	
 	.h-line {
