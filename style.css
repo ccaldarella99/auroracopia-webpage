@@ -577,7 +577,23 @@ li {
 	}
 }
 
+@media only screen and (max-width:770px) {
+	.index-middle {
+		width: 100%;
+	}
+	.home-pic {
+		max-height: 250px;
+	}
+	#mid-section {
+		padding-bottom: 180px;
+	}
+}
+
 @media only screen and (max-width:385px) {
+	.home-pic {
+		max-height: 180px;
+	}
+	
 	.black-box {
 		/*display: none;*/
 		width: 100%;
@@ -594,6 +610,18 @@ li {
 		padding-top: 0;
 		padding-bottom: 50px;
 		margin-top: 20px;
+	}
+}
+
+@media only screen and (max-width:700px) {
+	#mid-section {
+		padding-bottom: 140px;
+	}
+}
+
+@media only screen and (max-width:640px) {
+	#mid-section {
+		padding-bottom: 80px;
 	}
 }
 
