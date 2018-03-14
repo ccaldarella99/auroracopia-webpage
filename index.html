@@ -43,10 +43,21 @@
 							</div>
 						</div>
 					</div>
-					<div id="hamburger">
+					<div id="hamburger" onclick="openMenu('menu-overlay','over-menu');">
 						<div class="h-line"></div>
 						<div class="h-line"></div>
 						<div class="h-line"></div>
+					</div>
+					<div class="overlay" id="menu-overlay">
+						<a href="#" class="close-btn" onclick="closeMenu('menu-overlay','over-menu');">
+							&times;
+						</a>
+						<div class="item-overlay" id="over-menu">
+								<div><a class="nav-menu-item overlay-item-color" href="index.html" id="ov-me-ho">HOME</a></div>
+								<div><a class="nav-menu-item overlay-item-color" href="your_hosts.html">YOUR HOSTS</a></div>
+								<div><a class="nav-menu-item overlay-item-color" href="episodes.html">EPISODES</a></div>
+								<div><a class="nav-menu-item overlay-item-color" href="contact.html">CONTACT</a></div>
+						</div>
 					</div>
 				</div>
 			</div>
