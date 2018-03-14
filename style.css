@@ -168,6 +168,19 @@ a { z-index:3; }
 	width: 150px;
 	margin:10px 0;
 	line-height: 1.5em;
+	animation: overlay-orange-text 1.5s;
+}
+
+@keyframes overlay-orange-text {
+	0% {
+		font-size: 0;
+	}
+	30% {
+		font-size: 0;
+	}
+	100% {
+		font-size: 1em;
+	}
 }
 
 .left-btn {
@@ -185,10 +198,17 @@ a { z-index:3; }
 	width: 180px;
 	padding: 10px;
 	display: none;
-	transition-property: top;
-	transition-duration: 0.5s;
-	transition-delay: 0.1s;
-	transition-timing-function: ease-in-out;
+	height: 94px;
+	animation: slide-nav-menu 0.5s;
+}
+
+@keyframes slide-nav-menu {
+	0% {
+		height: 0;
+	}
+	100% {
+		height: 94px;
+	}
 }
 
 .dropdown:hover .dropdown-content {
@@ -201,6 +221,7 @@ a { z-index:3; }
 	transition-property: color;
 	transition-duration: 0.5s;
 	transition-delay: 0.5s;
+	transition-timing-function: ease-in;
 }
 
 .menu-color:hover {
@@ -444,23 +465,6 @@ li {
 .overlay-item-color {
 	color:#e5bb15;
 	font-size: 1em;
-	animation: overlay-orange-text 1.5s;
-}
-
-@keyframes overlay-orange-text {
-	0% {
-		font-size: 0;
-	}
-	100% {
-		font-size: 1em;
-	}
-}
-
-@keyframes hover-nav-menu {
-	0% {
-	}
-	100% {
-	}
 }
 
 
