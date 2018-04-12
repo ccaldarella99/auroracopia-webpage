@@ -1,0 +1,105 @@
+<html><head>
+		<meta charset="UTF-8">
+		<meta name="description" content="All of the things!">
+		<meta name="keywords" content="Denver,Food,Music,Aurora,podcast,episodes,Auroracopia">
+		<meta name="author" content="Christopher J Caldarella &amp; Glenn C Connolly">
+
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0, width=device-width">
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+
+		<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<title>Auroracopia</title>
+
+		<link rel="stylesheet" type="text/css" href="grids.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+					<a href="index.html">
+							<div id="header-left">
+									<img src="res/logo.png" id="header-logo" alt="sun-logo">
+							</div>
+						</a>
+						<div id="header-right">
+					<div id="nav-right-top">
+						<div class="menu-item left-btn">
+							<a class="menu-color" href="index.html">HOME</a>
+						</div>
+						<div class="menu-item right-btn dropdown">
+							<a class="menu-color" href="#">ABOUT</a>
+							<div id="nav-right-bottom" class="dropdown-content">
+								<div><a class="nav-menu-item menu-color" href="your_hosts.html">YOUR HOSTS</a></div>
+								<div><a class="nav-menu-item menu-color" href="episodes.html">EPISODES</a></div>
+								<div><a class="nav-menu-item menu-color" href="contact.html">CONTACT</a></div>
+							</div>
+						</div>
+					</div>
+					<div id="hamburger" onclick="openMenu('menu-overlay','over-menu');">
+						<div class="h-line"></div>
+						<div class="h-line"></div>
+						<div class="h-line"></div>
+					</div>
+					<div class="overlay" id="menu-overlay">
+						<a href="#" class="close-btn" onclick="closeMenu('menu-overlay','over-menu');">
+							×
+						</a>
+						<div class="item-overlay" id="over-menu">
+								<div><a class="nav-menu-item overlay-item-color" href="index.html" id="ov-me-ho">HOME</a></div>
+								<div><a class="nav-menu-item overlay-item-color" href="your_hosts.html">YOUR HOSTS</a></div>
+								<div><a class="nav-menu-item overlay-item-color" href="episodes.html">EPISODES</a></div>
+								<div><a class="nav-menu-item overlay-item-color" href="contact.html">CONTACT</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="mid-section">
+				<div class="left-middle index-middle">
+					<p class="phonetic eb">er·ror</p>
+					<p class="phonetic eb">ˈerər</p>
+					<em class="noun eb">noun</em>
+					<ol class="home-list eb">
+						<li class="home-item eb">a mistake.</li>
+					</ol>
+					<ul class="definition eb">
+						<li class="home-item eb">the state or condition of being wrong in conduct or judgement.</li>
+						<li class="home-item eb">a measure of the estimated difference between the observed or calculated value of a quantity and its true value.</li>
+					</ul>
+				</div>
+				<div class="right-middle index-middle">
+					<div class="pic-container">
+						<img class="home-pic" src="res/02040027.JPG" alt="goat-man">
+					</div>
+					<div class="home-about eb">
+						<p class="eb center-txt">
+							</p><h1 style="font-size:3em;"><strong>Oh, no!</strong></h1>
+						<p></p>
+						<p class="eb center-txt">
+							<strong>
+								It looks like there was an error getting to the page you were looking for.
+							</strong>
+						</p>
+						<p class="eb center-txt">
+							<strong>
+                                <a href="http://www.auroracopia.com">Please click her to return to the main page.</a>
+							</strong>
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<footer id="back-footer">
+			</footer>
+			<footer>
+			</footer>
+		</div>
+		<script type="text/javascript" src="app.js"></script>
+	
+</body></html>
